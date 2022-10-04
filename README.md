@@ -33,7 +33,7 @@ Here the nodes are considered as directory and assuming there are list of file o
 
 **Otherways to achieve this :**
 
-Multi threading in Java can be achieved through many ways Runnable, Cyclic Barrier etc. 
+Multi threading in Java can be achieved through many ways Runnable, Cyclic Barrier, Callable + Future etc. 
 
 **DataIntegrity check :**
 
