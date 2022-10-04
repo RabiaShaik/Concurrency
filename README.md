@@ -4,35 +4,28 @@ This project is created for demo purpose.
 1. Retrieve list of file objects in /mnt/share1/tes on node 1 and node 2 in parallel
 2. Return Success if contents match ; error if there is a mismatch
 
-
--------------                 -------------
-Node 1  (n1)                    Node 2 (n2)
-------|------                  -------|------
-      |                               |          
-      ---------------|------------------
-                     |       
-               --------------
-                   Node 3 (mgr)
-               ---------------
 **Bonus Points :**
 
-Include validation for metadata of the file
-Include dat integrity checks for file
+1. Include validation for metadata of the file
+2. Include dat integrity checks for file
 
 **Deliverables:** 
-code
-Links to any non built in packages and the reason those packages were used
+1. code
+2. Links to any non built in packages and the reason those packages were used
                
 
-**Languages allowed to implement :** JAVA, C++, Python
+**Languages allowed to implement :** 
 
-**Language used:** JAVA
+JAVA, C++, Python
+
+**Language used:** 
+JAVA
 
 **Classes:**
 
 There are two classes in this project
-Runnable Task === > Which contains file reading methods
-Runnable Example ====> Which contains the thread to invoke the reading of the files in parallel and comparing them
+1. Runnable Task which contains file reading methods
+2. Runnable Example which contains the thread to invoke the reading of the files in parallel and comparing them
 
 **Assumptions made :**
 
