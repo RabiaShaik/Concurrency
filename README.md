@@ -61,6 +61,12 @@ capabilities called attributes
 check the comparison
 
 
+**Another Try**
+
+1. Tried in python initially but since it is not my comfortable language to start with it was bit of a struggle. 
+2. It is not complete but I manage to read two files sequentially.
+3. Some comments I have left for which I tried for multi processing although it is not a complete one.
+
 
 
 
