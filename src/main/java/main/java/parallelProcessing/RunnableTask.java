@@ -4,6 +4,7 @@ import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+
 public class RunnableTask implements Runnable {
     private String filename;
     private String content;
@@ -17,9 +18,7 @@ public class RunnableTask implements Runnable {
 
     public void run() {
         try {
-
-            String currentDir = System.getProperty("user.dir");
-            Path path = Paths.get(currentDir, "java-concurrency", "files", filename);
+            Path path = Paths.get(RunnableExample.HOME_DIR, RunnableExample.FILE_PATH_LOCATION, filename);
             File file = path.toFile();
 
             BufferedReader br = new BufferedReader(new FileReader(file));
@@ -35,5 +34,8 @@ public class RunnableTask implements Runnable {
         }
     }
 
-    public String getContent() { return content; }
+
+    public String getContent() {
+        return content;
+    }
 }

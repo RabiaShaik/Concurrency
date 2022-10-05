@@ -49,6 +49,11 @@ capabilities called attributes
 1. The files are stored in folders called java-concurrency in the project path and files and files2 folder
 2. All are text files that are stored.
 
+**Exceptions**
+
+1. File not found Exception is handled
+2. IO exception is handled
+
 **How to run the Project and test**
 
 1. Launch the project in your IDE and right click on the Runnable Example class inside src folder and click on Run
