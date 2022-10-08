@@ -61,6 +61,11 @@ capabilities called attributes
 check the comparison
 
 
+**PythonScript**:
+
+1. I managed to do the same in python script also using filecmp method in python. 
+2. This will retrieve files parallel and compare them. If there is any mismatch it will report.
+
 **Another Try**
 
 1. Tried in python initially but since it is not my comfortable language to start with it was bit of a struggle. 
