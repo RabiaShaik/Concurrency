@@ -65,6 +65,8 @@ check the comparison
 
 1. I managed to do the same in python script also using filecmp method in python. 
 2. This will retrieve files parallel and compare them. If there is any mismatch it will report.
+3. Have two directories and have some text files in them and add contents to them
+4. Right click on this script and run as python script.
 
 **Another Try**
 
