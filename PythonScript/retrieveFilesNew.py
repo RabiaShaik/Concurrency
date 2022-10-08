@@ -2,6 +2,9 @@ import filecmp
 import os
 
 # Determine the items that exist in both directories
+
+#Change this to your directory and have some files inside them
+#and write some text in them
 path1 = '/Users/rshaika/Desktop/test1'
 path2 = '/Users/rshaika/Desktop/test2'
 d1_contents = set(os.listdir(path1))
